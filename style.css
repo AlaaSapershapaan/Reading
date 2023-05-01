@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: linear-gradient(#286589,#dee185);
+    height: 100vh;
+    font-family: system-ui ;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px; ;
+
+}
+
+header .ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: larger;
+}
+header ul li{
+    display: inline-block;
+    margin-right: 200px;
+}
+header ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 150%;
+
+}
+header ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+.contant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    
+}
+.contant .text{
+    color: #000;
+    width: 50%;
+    font-size: 150%;
+}
+.contant .image{
+    width: 30%;
+    height: 80%;
+    
+}
+.m-1{
+    padding: 50px;
+font-size: 30px ;
+justify-content: space-between;
+
+}
+.x{
+    width: 10%;
+}
+#toggle{
+    font-size: 100%;
+}
+.m-2{
+    padding: 50px;
+    font-size: 30px ;
+    justify-content: space-between;
+}
+
+.w{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+
+}
+.m-3{
+    padding: 50px;
+    font-size: 30px ;
+    justify-content: space-between;
+}
+.i{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.m-4{
+    padding: 50px;
+    font-size: 30px ;
+    justify-content: space-between;
+}
+.h{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.l{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
